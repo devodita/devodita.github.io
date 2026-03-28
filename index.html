@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Devodita Chakravarty — Robotics Researcher</title>
+  <meta name="description" content="Personal academic portfolio of Devodita Chakravarty — Autonomous Driving, Robotics, and Motion Planning researcher at IIT Kharagpur.">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@300;400;600;700&family=Crimson+Pro:ital,wght@0,300;0,400;0,600;1,300;1,400&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+  <!-- Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ═══ LOADING SCREEN ═══ -->
+  <div id="loader">
+    <div class="loader-inner">
+      <div class="loader-spinner">
+        <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+          <polygon class="hex hex-1" points="50,5 90,27.5 90,72.5 50,95 10,72.5 10,27.5"/>
+          <polygon class="hex hex-2" points="50,15 80,32.5 80,67.5 50,85 20,67.5 20,32.5"/>
+          <polygon class="hex hex-3" points="50,25 70,37.5 70,62.5 50,75 30,62.5 30,37.5"/>
+        </svg>
+      </div>
+      <p class="loader-name"></p>
+    </div>
+  </div>
+
+  <!-- ═══ NAVBAR ═══ -->
+  <nav id="navbar">
+    <div class="nav-inner">
+      <a href="#hero" class="nav-logo">DC</a>
+      <div class="nav-links">
+        <a href="#about">About</a>
+        <a href="#publications">Publications</a>
+        <a href="#research">Research</a>
+        <a href="#education">Education</a>
+        <a href="#skills">Skills</a>
+        <a href="#awards">Awards</a>
+      </div>
+      <button class="nav-toggle" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+    <!-- Mobile menu -->
+    <div class="nav-mobile">
+      <a href="#about">About</a>
+      <a href="#publications">Publications</a>
+      <a href="#research">Research</a>
+      <a href="#education">Education</a>
+      <a href="#skills">Skills</a>
+      <a href="#awards">Awards</a>
+    </div>
+  </nav>
+
+  <!-- ═══ HERO ═══ -->
+  <section id="hero">
+    <canvas id="particles-canvas"></canvas>
+    <div class="hero-content">
+      <div class="hero-text">
+        <p class="hero-greeting reveal-up">Hello, I'm</p>
+        <h1 class="hero-name reveal-up" id="hero-name"></h1>
+        <div class="hero-typing-wrapper reveal-up">
+          <span class="hero-typing" id="hero-typing"></span>
+          <span class="typing-cursor">|</span>
+        </div>
+        <div class="hero-socials reveal-up" id="hero-socials"></div>
+        <a href="#publications" class="hero-cta reveal-up">
+          View My Research <i class="fas fa-arrow-down"></i>
+        </a>
+      </div>
+      <div class="hero-photo reveal-up">
+        <div class="photo-frame">
+          <img id="hero-photo" alt="Devodita Chakravarty" src="assets/profile.jpg">
+          <div class="photo-decoration"></div>
+        </div>
+      </div>
+    </div>
+    <div class="hero-scroll-indicator">
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- ═══ ABOUT ═══ -->
+  <section id="about">
+    <div class="container">
+      <h2 class="section-title reveal-up"><span class="title-number">01.</span> About Me</h2>
+      <div class="about-content reveal-up" id="about-content"></div>
+    </div>
+  </section>
+
+  <!-- ═══ PUBLICATIONS ═══ -->
+  <section id="publications">
+    <div class="container">
+      <h2 class="section-title reveal-up"><span class="title-number">02.</span> Publications</h2>
+      <div class="pub-list" id="pub-list"></div>
+    </div>
+  </section>
+
+  <!-- ═══ RESEARCH EXPERIENCE ═══ -->
+  <section id="research">
+    <div class="container">
+      <h2 class="section-title reveal-up"><span class="title-number">03.</span> Research Experience</h2>
+      <div class="timeline" id="timeline"></div>
+    </div>
+  </section>
+
+  <!-- ═══ EDUCATION ═══ -->
+  <section id="education">
+    <div class="container">
+      <h2 class="section-title reveal-up"><span class="title-number">04.</span> Education</h2>
+      <div class="edu-grid" id="edu-grid"></div>
+    </div>
+  </section>
+
+  <!-- ═══ SKILLS ═══ -->
+  <section id="skills">
+    <div class="container">
+      <h2 class="section-title reveal-up"><span class="title-number">05.</span> Skills</h2>
+      <div class="skills-grid" id="skills-grid"></div>
+    </div>
+  </section>
+
+  <!-- ═══ AWARDS & LEADERSHIP ═══ -->
+  <section id="awards">
+    <div class="container">
+      <h2 class="section-title reveal-up"><span class="title-number">06.</span> Awards & Leadership</h2>
+      <div class="awards-layout">
+        <div class="awards-col">
+          <h3 class="sub-title reveal-up">Achievements</h3>
+          <ul class="awards-list" id="awards-list"></ul>
+        </div>
+        <div class="awards-col">
+          <h3 class="sub-title reveal-up">Positions of Responsibility</h3>
+          <div class="positions-list" id="positions-list"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ FOOTER ═══ -->
+  <footer id="footer">
+    <div class="container">
+      <div class="footer-inner">
+        <div class="footer-links" id="footer-links"></div>
+        <p class="footer-note" id="footer-note"></p>
+        <p class="footer-credit">Designed by Devodita Chakravarty</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="js/data.js"></script>
+  <script src="js/particles.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
