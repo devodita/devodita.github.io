@@ -1,8 +1,8 @@
-# Academic Portfolio — Animated Single-Page Template
+# Academic Portfolio - Animated Single-Page Template
 
 A lightweight, animated academic portfolio built with pure HTML, CSS, and JavaScript. No frameworks, no build tools, no dependencies that break. Deploy on GitHub Pages in under 2 minutes.
 
-Originally built for [Devodita Chakravarty](https://devodita.github.io) — feel free to fork it and make it yours.
+Originally built for [Devodita Chakravarty](https://devodita.github.io) - feel free to fork it and make it yours.
 
 ## Features
 
@@ -13,8 +13,8 @@ Originally built for [Devodita Chakravarty](https://devodita.github.io) — feel
 - **Card hover effects** with gradient accents
 - **Animated timeline** for research experience
 - **Publication cards** with status badges (Accepted / Under Review / Tech Report)
-- **Fully responsive** — works on mobile, tablet, and desktop
-- **Zero build step** — edit a single JS file, push, done
+- **Fully responsive** - works on mobile, tablet, and desktop
+- **Zero build step** - edit a single JS file, push, done
 
 ## Quick Start
 
@@ -32,7 +32,7 @@ Settings → Pages → Source: **Deploy from a branch** → Branch: `main` / `/ 
 
 ### 4. Edit your content
 
-Open `js/data.js` — this is the only file you need to touch. All your information lives here: name, bio, publications, research experience, education, skills, awards, and social links.
+Open `js/data.js` - this is the only file you need to touch. All your information lives here: name, bio, publications, research experience, education, skills, awards, and social links.
 
 ### 5. Replace the photo
 
@@ -47,7 +47,7 @@ Your site will be live at `https://<your-username>.github.io` within a minute or
 ```
 index.html           ← Main page (rarely needs editing)
 css/style.css        ← Styling and animations (edit :root variables for colors)
-js/data.js           ← YOUR CONTENT — this is the file you edit
+js/data.js           ← YOUR CONTENT - this is the file you edit
 js/main.js           ← Rendering, scroll logic, typing effect
 js/particles.js      ← Hero background particle animation
 assets/profile.jpg   ← Your headshot
@@ -82,9 +82,9 @@ Add an entry to the `research` array:
 {
   role: "Research Intern",
   org: "University Name",
-  lab: "Lab Name — Prof. Advisor",
+  lab: "Lab Name - Prof. Advisor",
   location: "City, Country",
-  dates: "May 2025 – Aug 2025",
+  dates: "May 2025 - Aug 2025",
   bullets: [
     "Built something impactful.",
     "Achieved measurable results.",
@@ -115,6 +115,6 @@ This site is static files served as-is. It worked in 2010 and it will work in 20
 
 ## License
 
-MIT — use it, fork it, modify it, ship it. Attribution appreciated but not required.
+MIT - use it, fork it, modify it, ship it. Attribution appreciated but not required.
 
 If this helped you, consider giving the repo a star.

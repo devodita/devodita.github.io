@@ -37,7 +37,8 @@ document.addEventListener('DOMContentLoaded', () => {
     a.target = s.url.startsWith('mailto:') || s.url.startsWith('tel:') ? '_self' : '_blank';
     a.rel = 'noopener noreferrer';
     a.title = s.platform;
-    a.innerHTML = `<i class="fa${s.icon === 'graduation-cap' ? 's' : 'b'} fa-${s.icon}"></i>`;
+    const solid = ['graduation-cap', 'envelope', 'phone'];
+    a.innerHTML = `<i class="fa${solid.includes(s.icon) ? 's' : 'b'} fa-${s.icon}"></i>`;
     heroSocials.appendChild(a);
   });
 
@@ -186,7 +187,8 @@ document.addEventListener('DOMContentLoaded', () => {
     a.target = s.url.startsWith('mailto:') || s.url.startsWith('tel:') ? '_self' : '_blank';
     a.rel = 'noopener noreferrer';
     a.title = s.platform;
-    a.innerHTML = `<i class="fa${s.icon === 'graduation-cap' ? 's' : 'b'} fa-${s.icon}"></i>`;
+    const solid = ['graduation-cap', 'envelope', 'phone'];
+    a.innerHTML = `<i class="fa${solid.includes(s.icon) ? 's' : 'b'} fa-${s.icon}"></i>`;
     footerLinks.appendChild(a);
   });
   document.getElementById('footer-note').textContent = SITE.footerNote;

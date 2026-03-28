@@ -88,7 +88,7 @@ const SITE = {
     {
       title: "Anomaly Detection for Industrial Quality Assurance: A Comparative Analysis of AER and TadGAN",
       authors: "C. Biswas, <u>Devodita Chakravarty</u>, I. Ghosh, B. Nayak",
-      venue: "Technical Report — collaboration with Deakin University",
+      venue: "Technical Report - collaboration with Deakin University",
       year: 2024,
       status: "report",
       links: { paper: "https://github.com/devodita/Time-Series-Anomaly-Detection-In-Industry-and-Quality-Assurance/blob/main/technical_report_ftp_final.pdf" },
@@ -100,7 +100,7 @@ const SITE = {
     {
       role: "Research Intern (Remote)",
       org: "Texas A&M University",
-      lab: "Dept. of CSE — Prof. Yiwei Lyu",
+      lab: "Dept. of CSE - Prof. Yiwei Lyu",
       location: "Remote",
       dates: "Sep 2025 – Present",
       bullets: [
@@ -113,9 +113,9 @@ const SITE = {
     {
       role: "Research Intern",
       org: "Carnegie Mellon University",
-      lab: "DRIVE Lab, Robotics Institute — Prof. John Dolan",
+      lab: "DRIVE Lab, Robotics Institute - Prof. John Dolan",
       location: "Pittsburgh, USA",
-      dates: "Nov 2024 – Sep 2025",
+      dates: "Nov 2024 - Sep 2025",
       bullets: [
         "Developed a hierarchical Bayesian belief model for multimodal human intent prediction in interactive driving.",
         "Designed risk-aware active probing with CVaR-based covariance steering for safe planning under uncertainty.",
@@ -126,9 +126,9 @@ const SITE = {
     {
       role: "Computer Vision Intern",
       org: "IIT Gandhinagar",
-      lab: "Sustainability Lab — Prof. Nipun Batra",
+      lab: "Sustainability Lab - Prof. Nipun Batra",
       location: "Gandhinagar, India",
-      dates: "May 2024 – Jul 2024",
+      dates: "May 2024 - Jul 2024",
       bullets: [
         "Applied super-resolution (SRCNN, ESRGAN) on Sentinel-2 imagery to improve industrial structure detection.",
         "Integrated YOLO detection pipelines for brick kiln identification and environmental monitoring.",
@@ -138,9 +138,9 @@ const SITE = {
     {
       role: "ML Intern (Remote)",
       org: "Deakin University, Australia",
-      lab: "TULIP Lab — Prof. Ye Zhu",
+      lab: "TULIP Lab - Prof. Ye Zhu",
       location: "Remote",
-      dates: "Feb 2024 – Aug 2024",
+      dates: "Feb 2024 - Aug 2024",
       bullets: [
         "Utilized TadGAN and Autoencoder Regression (AER) for anomaly detection in time-series data.",
         "Assessed model performance with AUC-ROC up to 0.997 on NASA, SCADA, and other datasets.",
@@ -191,12 +191,12 @@ const SITE = {
 
   // ── Awards ─────────────────────────────────────────────────
   awards: [
-    "Bhalodia-Khetan Summer Research Award — Ranked 1st among 200+ engineering interns, IIT Gandhinagar",
+    "Bhalodia-Khetan Summer Research Award - Ranked 1st among 200+ engineering interns, IIT Gandhinagar",
     "Gold Overall & 2nd place (ISRO Problem Statement) among 20+ IITs at the 13th InterIIT Tech Meet",
     "2nd position among 20 hostels in IIT Kharagpur GC for Hardware Modelling",
     "$7,150+ grant by KGPF Scholarship and CMU for research in the USA",
     "Certificate of Merit, top 1% in AI4ICPS (IIT Kharagpur) & TCS iON",
-    "Qualified JEE Advanced 2022 — Top 1% nationally among 1M+ candidates",
+    "Qualified JEE Advanced 2022 - Top 1% nationally among 1M+ candidates",
     "Qualified Pre-Regional Mathematics Olympiad (PRMO) 2020",
   ],
 
