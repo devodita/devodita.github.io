@@ -40,7 +40,7 @@ const SITE = {
     <br><br>
   
     My long-term goal is to pursue a PhD and contribute to research in robotics,
-    embodied intelligence, and machine learning.`
+    embodied intelligence, and machine learning.`,
   profilePhoto: "assets/profile.jpeg",  // Replace with your photo
   email: "devoditac@gmail.com",
   phone: "+91-7319158229",
