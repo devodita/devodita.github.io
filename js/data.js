@@ -9,25 +9,38 @@ const SITE = {
   // ── Personal Info ──────────────────────────────────────────
   name: "Devodita Chakravarty",
   taglines: [
-    "Autonomous Driving Researcher",
-    "Robotics & Motion Planning",
+    "Robotics & Embodied AI",
+    "Computer Vision & Generative Models",
+    "Motion Planning & Decision Making",
     "IIT Kharagpur · IIT Madras",
-    "Belief-Space MPC · Risk-Aware Planning",
   ],
   bio: `I am a pre-final year Dual Degree (B.Tech + M.Tech) student in Mechanical Engineering
     at <a href="https://iitkgp.ac.in" target="_blank">IIT Kharagpur</a>, with a Minor in Computer Science
     and a parallel B.S. in Data Science from <a href="https://www.iitm.ac.in" target="_blank">IIT Madras</a>.
+  
     <br><br>
-    My research lies at the intersection of <strong>autonomous driving</strong>, <strong>robot motion planning</strong>,
-    and <strong>risk-aware decision-making</strong>. I work on belief-space model predictive control (MPC),
-    CVaR-based safety constraints, and active intent probing for interactive driving scenarios.
+  
+    My research interests lie at the intersection of <strong>robotics</strong>,
+    <strong>computer vision</strong>, <strong>generative AI</strong>, and
+    <strong>decision-making under uncertainty</strong>. My work spans robot motion planning,
+    belief-space reasoning, reinforcement learning, test-time adaptation, and controllable multimodal generation.
+  
     <br><br>
-    I currently collaborate remotely with
+  
+    I am currently a Research Intern at Adobe Research India working on asset-guided design generation,
+    and collaborate remotely with
     <a href="https://engineering.tamu.edu/cse/profiles/lyu-yiwei.html" target="_blank">Prof.&nbsp;Yiwei&nbsp;Lyu</a>
-    at Texas A&M University, and have previously worked at CMU's
+    at Texas A&M University on risk-aware autonomous decision-making.
+    Previously, I worked at CMU's
     <a href="https://drive-lab-cmu.github.io/people/" target="_blank">DRIVE Lab</a>
-    under <a href="https://www.ri.cmu.edu/ri-faculty/john-m-dolan/" target="_blank">Prof.&nbsp;John&nbsp;Dolan</a>.
-    My goal is to pursue a PhD and eventually an academic career in robotics.`,
+    under <a href="https://www.ri.cmu.edu/ri-faculty/john-m-dolan/" target="_blank">Prof.&nbsp;John&nbsp;Dolan</a>
+    on interactive autonomous driving, and completed my Bachelor's Thesis under
+    Prof. Abir Das on generative test-time adaptation for video understanding.
+  
+    <br><br>
+  
+    My long-term goal is to pursue a PhD and contribute to research in robotics,
+    embodied intelligence, and machine learning.`
   profilePhoto: "assets/profile.jpeg",  // Replace with your photo
   email: "devoditac@gmail.com",
   phone: "+91-7319158229",
@@ -47,16 +60,16 @@ const SITE = {
     {
       title: "When to Probe and When to Act: Clarity-Aware Risk-Adaptive Control for Interactive Driving",
       authors: "<u>Devodita Chakravarty</u>, Yiwei Lyu",
-      venue: "IEEE/RSJ Int. Conf. on Intelligent Robots and Systems (IROS 2026)",
-      year: 2026,
-      status: "review",
-      links: { /* paper: "#", code: "#" */ },
+      venue: "Under Revision for Submission to IEEE Int. Conf. on Robotics and Automation (ICRA 2027)",
+      year: 2027,
+      status: "report",
+      links: {},
     },
     {
       title: "Diffusion Supervised Video Test Time Adaptation",
       authors: "O. Iqbal, A. Dey, <u>Devodita Chakravarty</u>, S. Marjit, O. Chakraborty, S. Basu, A. Chakraborty, A. Das",
-      venue: "European Conf. on Computer Vision (ECCV 2026)",
-      year: 2026,
+      venue: "Submitted to IEEE/CVF Winter Conf. on Applications of Computer Vision (WACV 2027)",
+      year: 2027,
       status: "review",
       links: {},
     },
@@ -98,6 +111,19 @@ const SITE = {
   // ── Research Experience ────────────────────────────────────
   research: [
     {
+      role: "Research Intern",
+      org: "Adobe Research India",
+      lab: "Manager: Balaji Vasan Srinivasan, Principal Scientist",
+      location: "Bengaluru, India",
+      dates: "May 2026 – Present",
+      bullets: [
+        "Investigated controllable design generation using multimodal asset and instruction conditioning.",
+        "Developed evaluation methodologies for measuring controllability and adherence to design constraints.",
+        "Built an agentic framework for iterative design generation and feedback-driven refinement.",
+        "Automated large-scale benchmarking across style, layout, branding, and visual consistency criteria.",
+      ],
+    },
+    {
       role: "Research Intern (Remote)",
       org: "Texas A&M University",
       lab: "Dept. of CSE - Prof. Yiwei Lyu",
@@ -108,6 +134,19 @@ const SITE = {
         "Introduced clarity as an endogenous planning variable from the Riccati covariance recursion for intent estimation.",
         "Designed self-terminating probing via submodular diminishing returns, eliminating explicit mode-switching logic.",
         "Proved formal regret bounds on uncertainty-aware conservatism; validated across 4,000 simulations (91.8% success).",
+      ],
+    },
+    {
+      role: "Bachelor's Thesis Researcher",
+      org: "Indian Institute of Technology Kharagpur",
+      lab: "Advisor: Prof. Abir Das, Dept. of Computer Science & Engineering",
+      location: "Kharagpur, India",
+      dates: "Jul 2025 – Apr 2026",
+      bullets: [
+        "Investigated source-free video action recognition under distribution shifts encountered during deployment.",
+        "Proposed a generative test-time adaptation framework leveraging video captioning and diffusion models.",
+        "Developed a teacher-student learning pipeline with pseudo-label refinement for online adaptation.",
+        "Outperformed existing video TTA methods through generative target-domain augmentation.",
       ],
     },
     {
@@ -166,7 +205,7 @@ const SITE = {
       minor: "Minor in Computer Science & Engineering",
       institute: "Indian Institute of Technology Kharagpur",
       years: "2022 – 2027",
-      cgpa: "8.39 / 10",
+      cgpa: "8.45 / 10",
       coursework: "Mechatronics, Robotics, Algorithms, Data Structures, Machine Learning, Linear Algebra, Dynamics, Soft Computing",
     },
     {
@@ -183,9 +222,19 @@ const SITE = {
   skills: {
     "Languages & Platforms": ["Python", "C++", "C", "MATLAB", "SQL", "Linux", "ROS 1/2", "Gazebo"],
     "Libraries & Tools":     ["PyTorch", "OpenCV", "NumPy", "Matplotlib", "Git", "SolidWorks", "Arduino"],
-    "Research Areas":        ["Motion Planning", "Model Predictive Control", "Probabilistic Modeling",
-                              "Risk-Aware Planning", "Belief-Space Optimization", "Multi-Agent Systems",
-                              "Computer Vision", "Test-Time Adaptation"],
+    "Research Areas": [
+      "Robot Learning",
+      "Motion Planning",
+      "Model Predictive Control",
+      "Decision-Making Under Uncertainty",
+      "Belief-Space Planning",
+      "Risk-Aware Planning",
+      "Reinforcement Learning",
+      "Computer Vision",
+      "Generative Models",
+      "Test-Time Adaptation",
+      "Multi-Agent Systems"
+    ],
     "Languages":             ["English", "Hindi", "Bengali", "German (A1)"],
   },
 
@@ -213,5 +262,5 @@ const SITE = {
   ],
 
   // ── Footer ─────────────────────────────────────────────────
-  footerNote: "Last updated: March 2026",
+  footerNote: "Last updated: June 2026",
 };
