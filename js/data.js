@@ -41,7 +41,7 @@ const SITE = {
   
     My long-term goal is to pursue a PhD and contribute to research in robotics,
     embodied intelligence, and machine learning.`,
-  profilePhoto: "assets/profile.jpeg",  // Replace with your photo
+  profilePhoto: "assets/profile.jpeg",
   email: "devoditac@gmail.com",
   phone: "+91-7319158229",
 
@@ -115,7 +115,7 @@ const SITE = {
       org: "Adobe Research India",
       lab: "Manager: Balaji Vasan Srinivasan, Principal Scientist",
       location: "Bengaluru, India",
-      dates: "May 2026 – Present",
+      dates: "May 2026 \u2013 Present",
       bullets: [
         "Investigated controllable design generation using multimodal asset and instruction conditioning.",
         "Developed evaluation methodologies for measuring controllability and adherence to design constraints.",
@@ -128,7 +128,7 @@ const SITE = {
       org: "Texas A&M University",
       lab: "Dept. of CSE - Prof. Yiwei Lyu",
       location: "Remote",
-      dates: "Sep 2025 – Present",
+      dates: "Sep 2025 \u2013 Present",
       bullets: [
         "Formulated a unified belief-space MPC coupling clarity-adaptive CVaR barriers with multistep information planning.",
         "Introduced clarity as an endogenous planning variable from the Riccati covariance recursion for intent estimation.",
@@ -141,7 +141,7 @@ const SITE = {
       org: "Indian Institute of Technology Kharagpur",
       lab: "Advisor: Prof. Abir Das, Dept. of Computer Science & Engineering",
       location: "Kharagpur, India",
-      dates: "Jul 2025 – Apr 2026",
+      dates: "Jul 2025 \u2013 Apr 2026",
       bullets: [
         "Investigated source-free video action recognition under distribution shifts encountered during deployment.",
         "Proposed a generative test-time adaptation framework leveraging video captioning and diffusion models.",
@@ -204,7 +204,7 @@ const SITE = {
       field: "Mechanical Engineering",
       minor: "Minor in Computer Science & Engineering",
       institute: "Indian Institute of Technology Kharagpur",
-      years: "2022 – 2027",
+      years: "2022 \u2013 2027",
       cgpa: "8.45 / 10",
       coursework: "Mechatronics, Robotics, Algorithms, Data Structures, Machine Learning, Linear Algebra, Dynamics, Soft Computing",
     },
@@ -212,7 +212,7 @@ const SITE = {
       degree: "Bachelor of Science",
       field: "Data Science and Applications (Online)",
       institute: "Indian Institute of Technology Madras",
-      years: "2023 – 2027",
+      years: "2023 \u2013 2027",
       cgpa: "9.43 / 10",
       coursework: "ML Foundations & Techniques, DBMS, Statistics, DSA in Python",
     },
@@ -233,9 +233,9 @@ const SITE = {
       "Computer Vision",
       "Generative Models",
       "Test-Time Adaptation",
-      "Multi-Agent Systems"
+      "Multi-Agent Systems",
     ],
-    "Languages":             ["English", "Hindi", "Bengali", "German (A1)"],
+    "Languages": ["English", "Hindi", "Bengali", "German (A1)"],
   },
 
   // ── Awards ─────────────────────────────────────────────────
@@ -251,11 +251,11 @@ const SITE = {
 
   // ── Positions of Responsibility ────────────────────────────
   positions: [
-    { role: "Advisor, Autonomous Ground Vehicle (AGV.AI)", org: "IIT Kharagpur", dates: "2023 – Present",
+    { role: "Advisor, Autonomous Ground Vehicle (AGV.AI)", org: "IIT Kharagpur", dates: "2023 \u2013 Present",
       desc: "Led technical discussions and research reading groups on autonomous driving and motion planning." },
-    { role: "Advisor, Kharagpur Data Analytics Group (KDAG)", org: "IIT Kharagpur", dates: "2023 – Present",
+    { role: "Advisor, Kharagpur Data Analytics Group (KDAG)", org: "IIT Kharagpur", dates: "2023 \u2013 Present",
       desc: "Organized a nationwide data science hackathon with 6,000+ registrations." },
-    { role: "Head, SPICMACAY Chapter", org: "IIT Kharagpur", dates: "2024 – Present",
+    { role: "Head, SPICMACAY Chapter", org: "IIT Kharagpur", dates: "2024 \u2013 Present",
       desc: "Organized events with esteemed personalities; coordinated cultural awareness initiatives." },
     { role: "Student Lecturer, Winter School of AI and Robotics", org: "IIT Kharagpur", dates: "Dec 2023",
       desc: "Delivered a machine learning workshop for 40 students." },
